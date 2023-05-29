@@ -1,6 +1,5 @@
 PREADVISING
-package 
-studentmanagementsystem;
+package studentmanagementsystem;
 
 import java.awt.Color;
 import java.awt.Container;
