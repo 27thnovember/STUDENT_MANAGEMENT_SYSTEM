@@ -29,7 +29,7 @@ public class Login extends JFrame {
 
     }
 
-    public void loginComponents() {
+     public void loginComponents() {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setBounds(200, 100, 630, 520);
         this.setTitle("Login Demo");
@@ -100,7 +100,7 @@ public class Login extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 String userName = tf.getText();
                 String password = pf.getText();
-                if (userName.equals("Group Two") && password.equals("Benjamin")) {
+                if (userName.equals("iamkhaled") && password.equals("khaled")) {
                     JOptionPane.showMessageDialog(null, "you logged successfully");
                     dispose();
                     Student s = new Student();
