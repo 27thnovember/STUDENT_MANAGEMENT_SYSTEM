@@ -1,4 +1,5 @@
-package studentmanagementsystem;
+package
+studentmanagementsystem;
 
 import java.awt.Color;
 import java.awt.Container;
@@ -9,6 +10,7 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.util.Date;
+
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
@@ -20,7 +22,7 @@ import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.JTableHeader;
 
-public class Preadvising extends JFrame implements ActionListener {
+public class PREADVISING extends JFrame implements ActionListener {
 
     private Container c;
     private ImageIcon img1, img2;
@@ -58,7 +60,7 @@ public class Preadvising extends JFrame implements ActionListener {
     private String[] col = {"#", "Courses", "Credit", "Course Title", "Priority", "Date and Time"};
     private String[] row = new String[6];
 
-    Preadvising() {
+    PREADVISING() {
         super("Pre-Advising");
         preAdvising();
     }

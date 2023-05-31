@@ -99,8 +99,8 @@ public class Login extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String userName = tf.getText();
-                char[] password = pf.getPassword();
-                if (userName.equals("Group Two") && password.equals("Benjamin")) {
+                String password = pf.getText();
+                if (userName.equals("Group Two") && password.equals("Berry")) {
                     JOptionPane.showMessageDialog(null, "you logged successfully");
                     dispose();
                     Student s = new Student();
