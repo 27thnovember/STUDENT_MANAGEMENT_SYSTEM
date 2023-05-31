@@ -23,7 +23,7 @@ public class Login extends JFrame {
     private Font f, font;
     private ImageIcon img1,img2,img3;
 
-    Login() {
+    public Login() {
 
         loginComponents();
 
@@ -99,8 +99,8 @@ public class Login extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String userName = tf.getText();
-                String password = pf.getText();
-                if (userName.equals("iamkhaled") && password.equals("khaled")) {
+                char[] password = pf.getPassword();
+                if (userName.equals("Group Two") && password.equals("Benjamin")) {
                     JOptionPane.showMessageDialog(null, "you logged successfully");
                     dispose();
                     Student s = new Student();

@@ -1,4 +1,3 @@
-PREADVISING
 package studentmanagementsystem;
 
 import java.awt.Color;

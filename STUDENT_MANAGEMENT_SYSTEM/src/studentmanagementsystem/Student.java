@@ -23,6 +23,7 @@ import javax.swing.JTextField;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.JTableHeader;
 
+
 public class Student extends JFrame implements ActionListener {
 
     private Container c;
@@ -30,7 +31,7 @@ public class Student extends JFrame implements ActionListener {
     private JComboBox cmbx;
     private JLabel label, idLabel, firstNameLabel, lastNameLabel, phoneLabel, deptLabel, cgpaLabel,
             semesterLabel;
-    private JTextField tfId, tfName1, tfName2, tfPhone, tfDept, tfCGPA, tfSemester;
+    private JTextField tfId, tfName1, tfName2, tfPhone, tfDept, tfCGPA;
     private JButton addButton, updateButton, deleteButton, preAdvisingButton, saveButton,
             clearButton, exitButton;
     private JTable table;
